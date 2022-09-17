@@ -123,7 +123,7 @@ $ svs4onnx \
 ```python
 from svs4onnx import variable_switch
 
-onnx_graph = rename(
+onnx_graph = variable_switch(
     from_output_variable_name="cast1_output",
     to_input_variable_name="StatefulPartitionedCall/strided_slice_21",
     input_onnx_file_path="movenet_multipose_lightning_192x256_nopost_tmp1.onnx",
