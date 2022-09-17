@@ -1,2 +1,2 @@
 # svs4onnx
-A very simple tool to swap connections between output and input variables in an ONNX graph. Simple Variable Switch for ONNX.
+A very simple tool to swap connections between output and input variables in an ONNX graph. **S**imple **V**ariable **S**witch for **ONNX**.
